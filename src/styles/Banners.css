@@ -1,6 +1,9 @@
-.banners__card--one {
+.banners__card {
   width: 100vw;
-  height: 500px;
+  overflow-x: hidden;
+  max-width: 100%;
+  min-height: 300px;
+  height: auto;
   background-color: #d8efef;
   display: flex;
   flex-direction: column;
@@ -8,4 +11,53 @@
   align-items: center;
 }
 
+.banners__card--header {
+  font-size: 36px;
+  margin-bottom: 20px;
+  letter-spacing: 1.5px;
+}
+
+.banners__card--para {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  letter-spacing: 1.5px;
+}
+
+.banners__domain {
+  width: 70%;
+  display: flex;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.banners__domain--input {
+  min-width: 300px;
+  max-width: 500px;
+  width: 100%;
+  height: 100%;
+  padding-left: 28px;
+  background-color: white;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.form__input::placeholder {
+  color: #5e5e5e;
+}
+
+.banners__domain--btn {
+  height: 100%;
+  width: 140px;
+  background: black;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
 

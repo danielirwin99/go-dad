@@ -1,0 +1,117 @@
+footer {
+  width: 100vw;
+  max-width: 100%;
+  background-color: #111;
+  padding: 50px 50px 0 50px;
+}
+
+.footer__logo--image {
+  margin-left: -10px;
+}
+
+.footer__subHeading {
+  color: #4444;
+  margin-bottom: 10px;
+}
+
+.footer__line {
+  width: 100% !important;
+  margin-inline: 0 -100px;
+  height: 1px;
+  background-color: white;
+}
+
+.footer__prices {
+  width: 100%;
+  margin: 24px auto;
+  text-align: center;
+}
+
+.footer__prices > p {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer__links--container {
+  display: flex;
+  color: white;
+  margin-top: 50px;
+  justify-content: space-around;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.footer__links {
+  margin: 8px 0;
+}
+
+.footer__link {
+  font-size: 12px;
+}
+
+.footer__currency--container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.footer__currency--info {
+  display: flex;
+  align-items: center;
+}
+
+.footer__currency--img {
+  margin-right: 10px;
+}
+
+.footer__currency--info > p {
+  color: white;
+  margin: 0 30px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.footer__currency--symbols {
+  display: flex;
+  color: white;
+}
+
+.footer__currency--symbol {
+  margin: 0 15px;
+  font-size: 18px;
+}
+
+.footer__copyright--container {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-size: 12px;
+  margin: 40px 0;
+}
+
+.footer__copyright--left {
+  width: 80%;
+  line-height: 2;
+}
+
+.footer__copyright--right {
+  width: 15%;
+}
+
+.footer__copyright--right > span {
+  padding: 0 10px;
+}
+
+.footer__copyright--para {
+  color: white;
+  font-size: 12px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+
+}

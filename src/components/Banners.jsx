@@ -4,11 +4,11 @@ import "../styles/Banners.css";
 const Banners = () => {
   return (
     <section id="banners">
-      <div className="banners__card--one">
-        <h2 className="banners__card--headerOne">
+      <div className="banners__card">
+        <h2 className="banners__card--header">
           It all starts with a domain
         </h2>
-        <p className="banners__card--paraOne">
+        <p className="banners__card--para">
           Make your idea real. Claim your space online with a domain.
         </p>
         <form className="banners__domain">
@@ -20,7 +20,7 @@ const Banners = () => {
           <button className="banners__domain--btn">Search</button>
         </form>
       </div>
-      <div className="banners__card--two"></div>
+      
     </section>
   );
 };
