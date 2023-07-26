@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Testimonials.css";
-import { AiFillStar } from "react-icons/ai";
+import { BsStarFill } from "react-icons/bs";
 import { TestData } from "../data/testData";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
@@ -51,11 +51,11 @@ const Testimonials = () => {
                 <div>
                   <h4 className="testimonials__card--header">{test.title}</h4>
                   <div className="star__container">
-                    <AiFillStar className="star" />
-                    <AiFillStar className="star" />
-                    <AiFillStar className="star" />
-                    <AiFillStar className="star" />
-                    <AiFillStar className="star faded" />
+                    <BsStarFill className="star" />
+                    <BsStarFill className="star" />
+                    <BsStarFill className="star" />
+                    <BsStarFill className="star" />
+                    <BsStarFill className="star half" />
                     <p className="testimonials__card--para">{test.paragraph}</p>
                   </div>
                 </div>
@@ -67,17 +67,18 @@ const Testimonials = () => {
         <div></div>
       </div>
       <div className="testimonials__trust-pilot">
-        <AiFillStar className="trust-star" />
+        <BsStarFill className="trust-star" />
         <h2 className="testimonials__trust-pilot--header">Trustpilot</h2>
       </div>
-      <AiFillStar className="star trust" />
-      <AiFillStar className="star trust" />
-      <AiFillStar className="star trust" />
-      <AiFillStar className="star trust" />
-      <AiFillStar className="star trust faded" />
+      <BsStarFill className="star trust" />
+      <BsStarFill className="star trust" />
+      <BsStarFill className="star trust" />
+      <BsStarFill className="star trust" />
+      <BsStarFill className="star trust half" />
       <p style={{ fontWeight: "bold" }}>
-        4.7 out of 5 stars based on 74,463 reviews &nbsp; <span className="grey">|</span> &nbsp;
-        Showing our 4 and 5 stars reviews.
+        4.7 out of 5 stars based on 74,463 reviews &nbsp;{" "}
+        <span className="grey">|</span> &nbsp; Showing our 4 and 5 stars
+        reviews.
       </p>
     </section>
   );

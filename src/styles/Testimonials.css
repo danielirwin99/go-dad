@@ -111,8 +111,8 @@
   padding: 6px;
 }
 
-.grey {
-  color: rgb(219, 219, 219);
+.half {
+  background: linear-gradient(to right, #01c77c 50%, rgb(219, 219, 219) 50%);
 }
 
 @media screen and (max-width: 1024px) {
