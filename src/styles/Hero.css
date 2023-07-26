@@ -279,7 +279,7 @@
     flex-direction: column;
     flex-wrap: wrap;
   }
-  
+
   .domain {
     padding-left: 0px;
   }
@@ -308,5 +308,38 @@
   .domain {
     display: none;
   }
+
+  .pricing__container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .span {
+    grid-column: 4;
+    grid-row: 1 / span 3;
+  }
+
+  .last {
+    grid-row: 3;
+    grid-column: 2 / span 2;
+  }
+
+  .pricing__wrapper {
+    padding: 20px 24px;
+    font-size: 14px;
+  }
 }
 
+@media screen and (max-width: 768px) {
+  .domain__container {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .domain__containerLeft {
+    width: 100%;
+  }
+
+  .domain__containerRight {
+    display: none;
+  }
+}

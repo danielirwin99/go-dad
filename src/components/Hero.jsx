@@ -121,7 +121,7 @@ const Hero = () => {
             <p>WordPress</p>
             <p>$7.95/mo</p>
           </div>
-          <div className="pricing__wrapper">
+          <div className="pricing__wrapper last">
             <p>Website Design Services</p>
           </div>
         </div>
