@@ -154,7 +154,7 @@ const Footer = () => {
         <div className="footer__currency--info">
           <img className="footer__currency--img" src={godad} alt="" />
           {/* THIS WILL BE MODALS */}
-          <p>Australia English</p>
+          <p>Australia - English</p>
           <p>AUD $</p>
         </div>
         <div className="footer__currency--symbols">

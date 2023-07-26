@@ -62,7 +62,7 @@ const Features = () => {
               you stay organized with a built-in calendar, address book and task
               lists.
             </p>
-            <button className="features__card--btn">Start for Free</button>
+            <button className="features__card--btn">See Email Plans</button>
           </div>
         </div>
         {/* THIRD */}

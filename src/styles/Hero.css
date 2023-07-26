@@ -223,6 +223,12 @@
   font-weight: bold;
   border: none;
   border-radius: 8px;
+  cursor: pointer;
+  transition: all 250ms ease-in-out;
+}
+
+.website__btn--container > button:hover {
+  transform: scale(1.03);
 }
 
 .website__btn--container > h3 {
@@ -252,6 +258,13 @@
   border: 1px solid rgb(235, 235, 235);
   padding: 30px 34px;
   line-height: 1.5;
+  cursor: pointer;
+  transition: all 600ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.pricing__wrapper:hover {
+  background-color: black;
+  color: white;
 }
 
 .span {
