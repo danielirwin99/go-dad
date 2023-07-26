@@ -1,0 +1,11 @@
+.banners__card--one {
+  width: 100vw;
+  height: 500px;
+  background-color: #d8efef;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+

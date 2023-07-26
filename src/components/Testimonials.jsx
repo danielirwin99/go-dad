@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/Testimonials.css";
 import { AiFillStar } from "react-icons/ai";
-import { TestData } from "./testData";
+import { TestData } from "../data/testData";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
