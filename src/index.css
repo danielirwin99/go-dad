@@ -1,13 +1,32 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: "GD Sherpa Medium";
+  src: url("https://db.onlinewebfonts.com/t/100c7ffee4c602cfa9628a6c791c14cd.eot");
+  src: url("https://db.onlinewebfonts.com/t/100c7ffee4c602cfa9628a6c791c14cd.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/100c7ffee4c602cfa9628a6c791c14cd.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/100c7ffee4c602cfa9628a6c791c14cd.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/100c7ffee4c602cfa9628a6c791c14cd.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/100c7ffee4c602cfa9628a6c791c14cd.svg#GD Sherpa Medium")
+      format("svg");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  font-family: "GD Sherpa Medium";
+  box-sizing: border-box;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  padding: 20px 60px;
 }
