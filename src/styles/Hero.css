@@ -356,4 +356,8 @@
   .domain__containerRight {
     display: none;
   }
+
+  .contact-us {
+    display: none;
+  }
 }
