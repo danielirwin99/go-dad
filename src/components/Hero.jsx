@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <header>
       <div className="form__section">
-        {/* <div className="contact-us">
+        <div className="contact-us">
           <div className="contact-us__border">
             <button className="contact-us__btn">
               <div className="contact-us__white">
@@ -19,7 +19,7 @@ const Hero = () => {
               </div>
             </button>
           </div>
-        </div> */}
+        </div>
         <form className="form">
           <input
             className="form__input"
