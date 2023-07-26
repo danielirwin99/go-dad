@@ -3,7 +3,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 60px;
+  padding: 10px 60px;
 }
 
 .navLeft {
@@ -12,7 +12,7 @@ nav {
 }
 
 .navLeft__logo {
-  height: 36px;
+  height: 30px;
 }
 
 .navLeft__container {
@@ -35,7 +35,7 @@ nav {
 .navLeft__link {
   color: #ffffff;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .navRight {
