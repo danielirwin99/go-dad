@@ -114,3 +114,9 @@
 .grey {
   color: rgb(219, 219, 219);
 }
+
+@media screen and (max-width: 1024px) {
+  .testimonials__header {
+    text-align: center;
+  }
+}

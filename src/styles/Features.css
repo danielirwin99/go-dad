@@ -91,3 +91,22 @@
     font-size: 32px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .features__header {
+    font-size: 40px;
+  }
+
+  .features__card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .features__card--info {
+    width: 100%;
+  }
+  .features__card--image {
+    width: 100%;
+  }
+}

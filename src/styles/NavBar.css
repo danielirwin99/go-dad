@@ -2,11 +2,13 @@ nav {
   background-color: #111111;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 20px 60px;
 }
 
 .navLeft {
   display: flex;
+  align-items: center;
 }
 
 .navLeft__logo {
@@ -63,4 +65,20 @@ nav {
 .cart {
   font-size: 18px;
   margin-bottom: -3px;
+}
+
+@media screen and (max-width:1024px) {
+  .navRight {
+    display: none;
+  }
+}
+
+@media screen and (max-width:768px) {
+  nav {
+    padding: 10px 20px;
+  }
+
+  .navLeft__container {
+    padding-left: 10px;
+  }
 }

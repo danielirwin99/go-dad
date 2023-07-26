@@ -113,5 +113,14 @@ footer {
   font-size: 12px;
   margin-top: 20px;
   margin-bottom: 30px;
+}
 
+@media screen and (max-width: 768px) {
+  .footer__links--wrapper:first-child {
+    padding-left: 0;
+  }
+
+  .footer__links--wrapper {
+    padding-left: 10px;
+  }
 }
