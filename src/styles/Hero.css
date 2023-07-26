@@ -246,6 +246,7 @@
 .pricing__container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
+  border-radius: 10px;
 }
 
 .pricing__wrapper {
