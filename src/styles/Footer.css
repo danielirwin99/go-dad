@@ -51,7 +51,7 @@ footer {
 
 .footer__link {
   font-size: 12px;
-  cursor: pointer;
+  cursor: not-allowed;
 }
 
 .footer__link:hover {
@@ -90,7 +90,7 @@ footer {
 .footer__currency--symbol {
   margin: 0 15px;
   font-size: 18px;
-  cursor: pointer;
+  cursor: not-allowed;
 }
 
 .footer__copyright--container {
@@ -112,7 +112,7 @@ footer {
 
 .footer__copyright--right > span {
   padding: 0 10px;
-  cursor: pointer;
+  cursor: not-allowed;
 }
 
 .footer__copyright--right > span:hover {

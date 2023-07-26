@@ -1,6 +1,7 @@
 nav {
   background-color: #111111;
   display: flex;
+  align-items: center;
   justify-content: space-between;
   align-items: center;
   padding: 10px 60px;
@@ -13,6 +14,7 @@ nav {
 
 .navLeft__logo {
   height: 30px;
+  display: flex;
 }
 
 .navLeft__container {
@@ -28,8 +30,8 @@ nav {
 }
 
 .navLeft__links:hover {
-    background: #5E5E5E;
-    border-radius: 8px;
+  background: #5e5e5e;
+  border-radius: 8px;
 }
 
 .navLeft__link {
@@ -50,8 +52,8 @@ nav {
 }
 
 .navRight__links:hover {
-    background: #5E5E5E;
-    border-radius: 8px;
+  background: #5e5e5e;
+  border-radius: 8px;
 }
 
 .navRight__link {
@@ -60,20 +62,114 @@ nav {
   font-size: 14px;
 }
 
-
-
 .cart {
   font-size: 18px;
   margin-bottom: -3px;
 }
 
-@media screen and (max-width:1024px) {
+.navSymbols {
+  display: none;
+}
+
+.symbol {
+  margin-right: 20px;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.symbol:last-child {
+  margin-right: 0px;
+}
+
+/* NAV BURGER SECTION */
+
+.navLeft__burger {
+  display: none;
+}
+
+.burger__logo {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.burger__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  margin-left: 8px;
+}
+
+.burger__list--wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+
+.burger__list--wrapper:hover {
+  transform: scale(1.03);
+}
+
+.burger__links--wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding-left: 0;
+}
+
+.burger__links {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding-left: 0px;
+}
+
+.burger__link {
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: 900;
+  cursor: pointer;
+}
+/*  */
+
+@media screen and (max-width: 1200px) {
+  .navSymbols {
+    display: flex;
+  }
+
+  .navLeft--mobile {
+    display: flex;
+    align-items: center;
+  }
+
+  .navLeft__burger {
+    display: flex;
+  }
+
+  .navLeft__container {
+    display: none;
+  }
+
   .navRight {
     display: none;
   }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 1024px) {
+  .navRight {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
   nav {
     padding: 10px 20px;
   }

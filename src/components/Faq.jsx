@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Faq.css";
-import BasicAccordion from "./Accordion";
+import BasicAccordion from "./Material/Accordion.jsx";
 
 const Faq = () => {
   return (

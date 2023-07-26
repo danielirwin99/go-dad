@@ -26,6 +26,7 @@
   border-radius: 24px;
   display: flex;
   border: none;
+  cursor: pointer;
 }
 
 .contact-us__white {

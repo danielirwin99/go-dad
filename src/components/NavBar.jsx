@@ -3,14 +3,22 @@ import "../styles/NavBar.css";
 import godaddy from "../assets/go-daddy.png";
 
 import { FiShoppingCart } from "react-icons/fi";
+import { BsTelephone, BsPerson } from "react-icons/bs";
+import { BiHelpCircle, BiCart } from "react-icons/bi";
+import BurgerBar from "./Material/BurgerBar";
 
 const NavBar = () => {
   return (
     <nav>
       <div className="navLeft">
-        <a href="/">
-          <img className="navLeft__logo" src={godaddy} alt="Logo" />
-        </a>
+        <div className="navLeft--mobile">
+          <div className="navLeft__burger">
+            <BurgerBar />
+          </div>
+          <a href="/">
+            <img className="navLeft__logo" src={godaddy} alt="Logo" />
+          </a>
+        </div>
         <ul className="navLeft__container">
           <li className="navLeft__links">
             <a className="navLeft__link" href="">
@@ -51,6 +59,12 @@ const NavBar = () => {
           </a>
         </li>
       </ul>
+      <div className="navSymbols">
+        <BsTelephone className="symbol" />
+        <BiHelpCircle className="symbol" />
+        <BsPerson className="symbol" />
+        <BiCart className="symbol" />
+      </div>
     </nav>
   );
 };
